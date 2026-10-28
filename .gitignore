@@ -1,0 +1,32 @@
+# Carpetas de simulación (Verilator / Icarus)
+simulacion/
+
+# Verilator
+obj_dir/
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.ghw
+V*.h
+V*.cpp
+V*.mk
+V*.d
+V*.o
+V*.a
+
+# Icarus
+sim
+*.vvp
+*.vpi
+
+# Build genérico
+*.o
+*.so
+*.d
+
+# Editores / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
